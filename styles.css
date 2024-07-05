@@ -31,8 +31,8 @@ body {
 .rowContainer {
     display: flex;
     border: #d2d2d2, 5px, solid;
-    height: 960px;
-    width: 960px;
+    height: 800px;
+    width: 800px;
     margin-top: 50px;
     flex-direction: column;
 }
