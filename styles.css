@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202426;
+}
+
+.headerContainer{
+    display: flex;
+    background-color: #202426;
+    color: rgb(225, 225, 225);
+    padding: 20px 150px;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerContainer p{
+    font-size: 40px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rowContainer {
+    display: flex;
+    border: #d2d2d2, 5px, solid;
+    height: 960px;
+    width: 960px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.gridRow {
+    display: flex;
+    flex: 1;
+}
+
+.gridSquare {
+    background-color: rgb(38, 38, 38);
+    flex: 1;
+}
